@@ -1,0 +1,69 @@
+_______________________________________________________________________________________-
+* React Native - React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
+Ref : https://facebook.github.io/react-native/docs/tutorial.html
+_______________________________________________________________________________________-
+
+*Fetures of ES6
+https://github.com/DrkSephy/es6-cheatsheet
+_______________________________________________________________________________________-
+
+https://babeljs.io/repl
+(Babel · The compiler for writing next generation JavaScript)
+_______________________________________________________________________________________-
+
+The Component Lifecycle
+	*Mounting
+		1) constructor()
+		2) componentWillMount()
+		3) render()
+		4) componentDidMount()
+	*Updating
+		5) componentWillReceiveProps()
+		6) shouldComponentUpdate()
+		7) componentWillUpdate()
+		8) render()
+		9) componentDidUpdate()
+	*Unmounting
+		10) componentWillUnmount()
+	*Other APIs
+		.
+		.
+		.
+		.
+		skipping
+		.
+		.
+Ref: https://facebook.github.io/react/docs/react-component.html		
+_______________________________________________________________________________________-
+Facebook uses Flexbos(css3 feature),
+as we have display:block(default),
+we have display:flex (default when we uses flexbox)
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Notes:
+	flex-direction:row (default)[in Web] BUT flex-direction:column (default)[in React/Facebook]
+	If you wish to target both potrait,landscape; use flex-wrap, it will manage.
+_______________________________________________________________________________________-
+
+React Navigation  [https://facebook.github.io/react-native/docs/navigation.html]
+_______________________________________________________________________________________-
+JavaScript Virtual Machine interface(IOS uses in back)
+	check:
+	How to create you own native bridge(https://medium.com/@kureevalexey/how-to-create-you-own-native-bridge-93a8d4a40bd2),
+	How to create your own native bridge P2(https://medium.com/@kureevalexey/how-to-create-your-own-native-bridge-bfa050e708fc)
+_______________________________________________________________________________________-
+React Native's AsyncStorage (https://facebook.github.io/react-native/docs/asyncstorage.html)
+_______________________________________________________________________________________-
+In ES6 Fetch is like XHR in ES5/Jq/Js
+	fetch(url).then(function(response) {
+	  return response.json();
+	}).then(function(data) {
+	  console.log(data);
+	}).catch(function() {
+	  console.log("Booo");
+	});
+	(ref: https://jakearchibald.com/2015/thats-so-fetch/)
+_______________________________________________________________________________________-
+(FlatList) https://facebook.github.io/react-native/docs/flatlist.html
+(SectionList) https://facebook.github.io/react-native/docs/sectionlist.html
+(VirtualizedList) https://facebook.github.io/react-native/docs/virtualizedlist.html
